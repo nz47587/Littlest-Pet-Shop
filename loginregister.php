@@ -43,6 +43,6 @@
 			</div>
 	</div>
 		
-	<script src="js/contact.js"></script>
+	<script src="js/loginregister.js"></script>
 </body>
 </html>
