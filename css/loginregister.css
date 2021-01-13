@@ -1,0 +1,201 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 5%;
+    height: 5px;
+	flex-wrap: wrap;
+}
+.header a{
+	color: #880e4f;
+	text-decoration: none;
+	font-size: 110%;
+	font-weight: bold;
+}
+.header ul{
+	margin-left: 35%;
+}
+.header li{
+	float: left;
+	display: inline;
+	padding: 0 17px 0 17px;
+}
+.header li:hover{
+	transition: 3s;
+	background-color: gray;
+	opacity: 0.9;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+.header #divH1{
+	height: 40px;
+	width: 50px;
+	float: left;
+}
+.header nav{
+	float:right;
+	margin-top: 20px;
+	margin-top: 6%; 
+	margin-right: 7%;
+}
+
+.nav{
+	width: 100%;
+	height: 25px;
+	margin-top: 5px;
+}
+
+/*-----------------------------------Contact----------------------------*/
+
+.pjesaContact{
+	width:100%;
+	height: 800px;
+	background-image:  linear-gradient( to right , pink, purple, pink);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.pjesaContact h1{
+	color: white;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	margin-top: 30px;
+}
+.pjesaContact h5{
+	color: black;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	margin-top: 20px;
+}
+.pjesaContact p{
+	color: white;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	margin-top: 30px;
+}
+.form-box{
+	width: 380px;
+	height: 500px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 20px;
+}
+.button-box{
+	width: 215px;
+	margin: 35px;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px ;
+}
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	position: absolute;
+	width: 100px;
+	height: 35px;
+	background: linear-gradient(to right, purple, pink);
+	border-radius: 30px;
+}
+.animals-icons{
+	margin: 30px auto;
+	text-align: center;
+}
+.animals-icons img{
+	width: 50px;
+	margin: 0 10px;
+	border-radius: 100px;
+}
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 6px;
+	margin: 5px;
+	border-bottom: 1px solid #999;
+	border-radius: 100px;
+	text-align: center;
+}
+
+.submit-btn{
+	width: 50%;
+	padding: 10px;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, purple, pink);
+	border-radius: 30px;
+}
+#login{
+	left: 50px;
+}
+#register{
+	left: 450px;
+}
+
+
+
+.input-group #email_error,
+.input-group #password_error{
+	width: 300px;
+	font-size: 18px;
+	color: #C62828;
+	text-align: center;
+	padding: 5px 8px;
+	display: none;
+}
+
+iframe{
+	margin-top: 30px;
+	border: 1px solid black;
+	width: 100%;
+	overflow: hidden;
+}
+
+/* --------FOOTERI------------- */
+
+#footer {
+	width: 100%;
+	height: 40px;
+
+}
+#footer h2{
+	text-align: center;
+	color: #880e4f;
+}
+#footer p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 100%;
+}
+/*----Fundi----*/
+#lastFooter {
+	width: 100%;
+	height: 40px;
+}
+#lastFooter p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 100%;
+	color:#880e4f;
+}
