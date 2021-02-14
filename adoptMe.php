@@ -1,11 +1,6 @@
-
 <?php 
-
     include 'dbconnect.php';
-
 ?>
-
-
 
 <!DOCTYPE html> 
 <html>
@@ -20,21 +15,19 @@
         <!--HEADER-->
            <?php include 'include/header.php'; ?>
         <!---------->
-
-
         <div id="logo">
             <img id="foto" src="images/foto.png" alt="Logo">
         </div>
 
         <div class="formulari">
-            <form id="myform" action="adoptMe.php" method="POST" onsubmit="return validate()"> 
+            <form action="backend/adopto.php" method="POST" id="myform" onsubmit="return validate()"> 
 
             <div class="row">
                 <div class="label">
                     <label for="emri">Emri:</label>
                 </div>
                 <div class="input">
-                    <input type="text" name="femri emri" class="inputs" size="20" maxlength="50" required ><br>
+                    <input type="text" name="emri" class="inputs" size="20" maxlength="50" required ><br>
                 </div>
             </div>
 
@@ -43,7 +36,7 @@
                     <label for="mbiemri">Mbiemri:</label>
                 </div>
                 <div class="input">
-                    <input type="text" name="fmbiemri mbiemri" class="inputs" size="20" maxlength="60" required><br>
+                    <input type="text" name="mbiemri" class="inputs" size="20" maxlength="60" required><br>
                 </div>
             </div>
 
@@ -52,7 +45,7 @@
                     <label for="email">Email:</label>
                 </div>
                 <div class="input">
-                    <input type="email" name="femail email" class="inputs" size="20" minlength="9" required> <br>
+                    <input type="email" name="email" class="inputs" size="20" minlength="9" required> <br>
                 </div>
             </div>
 
@@ -61,7 +54,7 @@
                     <label for="qyteti">Qyteti:</label>
                 </div>
                 <div class="input">
-                    <input type="text" name="fqyteti qyteti" size="20" maxlength="30"> <br>
+                    <input type="text" name="qyteti" size="20" maxlength="30"> <br>
                 </div>
             </div>
 
@@ -70,7 +63,7 @@
                     <label for="kafsha-adoptim">Kafsha qe doni te adoptoni: </label>
                 </div>
                 <div class="input">
-                    <select id="select" name="fkafsha" class="inputs" required>
+                    <select id="select" name="kafsha" class="inputs" required>
                         <!--<option value="Zgjedh kafshen">Zgjedh kafshen</option>-->
                         <option value="Perla" selected>Perla</option>
                         <option value="Luna">Luna</option>
@@ -84,14 +77,10 @@
                         <option value="Stormi">Stormi</option>
                         <option value="Nugget">Nugget</option>
                         <option value="Walnut">Walnut</option>
-
                     </select> <br>
                 </div>
             </div>
-
-                    <button id="button" name= "insert" type="submit" onclick="return shfaq()">Submit</button>
-               
-
+                    <button id="submit" type="submit" name="sub" onclick="return shfaq()">Submit</button>
             </form>
         </div>
         
