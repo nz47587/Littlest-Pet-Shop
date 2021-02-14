@@ -12,13 +12,13 @@
 <!--HEADER-->
         <?php include 'include/header.php'; ?>
 
-                                            <!--Cat page-->
+                                        
 <?
 	$query = $pdo->query('SELECT * from cats');
 	$cats = $query->fetchAll();
 ?>
-
-                           <!--dog page-->
+					  <!--Cat page-->
+                       
        <div class="macja-parent">
         <?php foreach($cats as $c1){ ?>
             <div class="cat-child">
