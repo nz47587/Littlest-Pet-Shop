@@ -11,7 +11,7 @@
 <html>
     <head>
         <title>Adopt Me</title>
-        <link href="css/adopto.css" rel="stylesheet" type="text/css"/> 
+        <link href="css/adoptMe.css" rel="stylesheet" type="text/css"/> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="js/adoptojs.js" type="text/javascript"></script>
         
@@ -20,6 +20,7 @@
         <!--HEADER-->
            <?php include 'include/header.php'; ?>
         <!---------->
+
 
         <div id="logo">
             <img id="foto" src="images/foto.png" alt="Logo">
@@ -33,7 +34,7 @@
                     <label for="emri">Emri:</label>
                 </div>
                 <div class="input">
-                    <input type="text" name="femri" class="inputs" size="20" maxlength="50" required ><br>
+                    <input type="text" name="femri emri" class="inputs" size="20" maxlength="50" required ><br>
                 </div>
             </div>
 
@@ -42,7 +43,7 @@
                     <label for="mbiemri">Mbiemri:</label>
                 </div>
                 <div class="input">
-                    <input type="text" name="fmbiemri" class="inputs" size="20" maxlength="60" required><br>
+                    <input type="text" name="fmbiemri mbiemri" class="inputs" size="20" maxlength="60" required><br>
                 </div>
             </div>
 
@@ -51,7 +52,7 @@
                     <label for="email">Email:</label>
                 </div>
                 <div class="input">
-                    <input type="email" name="femail" class="inputs" size="20" minlength="9" required> <br>
+                    <input type="email" name="femail email" class="inputs" size="20" minlength="9" required> <br>
                 </div>
             </div>
 
@@ -60,7 +61,7 @@
                     <label for="qyteti">Qyteti:</label>
                 </div>
                 <div class="input">
-                    <input type="text" size="20" maxlength="30"> <br>
+                    <input type="text" name="fqyteti qyteti" size="20" maxlength="30"> <br>
                 </div>
             </div>
 
@@ -69,7 +70,7 @@
                     <label for="kafsha-adoptim">Kafsha qe doni te adoptoni: </label>
                 </div>
                 <div class="input">
-                    <select id="select" class="inputs" placeholder="Zgjedh kafshen" required>
+                    <select id="select" name="fkafsha" class="inputs" required>
                         <!--<option value="Zgjedh kafshen">Zgjedh kafshen</option>-->
                         <option value="Perla" selected>Perla</option>
                         <option value="Luna">Luna</option>
@@ -88,7 +89,7 @@
                 </div>
             </div>
 
-                    <button id="button"  type="submit" onclick="return shfaq()">Submit</button>
+                    <button id="button" name= "insert" type="submit" onclick="return shfaq()">Submit</button>
                
 
             </form>
