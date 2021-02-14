@@ -1,8 +1,18 @@
 
+<?php 
+
+    include 'dbconnect.php';
+
+?>
+
+
+
+<!DOCTYPE html> 
 <html>
     <head>
         <title>Adopt Me</title>
         <link href="css/adopto.css" rel="stylesheet" type="text/css"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="js/adoptojs.js" type="text/javascript"></script>
         
     </head>
